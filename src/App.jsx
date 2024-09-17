@@ -8,8 +8,8 @@ function App() {
       
         {/* LOGO Y UBICACION */}
         <section className="h-24 flex">
-          <div className="w-1/2 flex">
-            <img src={Logo} alt="logo" className="w-1/2" />
+          <div className="w-1/2 flex pl-2">
+            <img src={Logo} alt="logo" className="pl-2 max-w-1/2" />
           </div>
 
           <div className="w-1/2 flex justify-center items-center gap-4">
@@ -22,7 +22,15 @@ function App() {
             </div>
           </div>
         </section>
-      </div>
+
+        {/* IMAGEN CABECERA */}
+        <section className="header"></section>
+
+
+
+
+
+      </div> {/* /CONTENEDOR */}
     </>
   );
 }
